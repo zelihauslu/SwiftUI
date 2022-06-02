@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Views.swift
 //  BetterRest
 //
 //  Created by Zeliha Uslu on 2.06.2022.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Views: View {
     @State var sleepAmount : Double = 8.0
     @State var wakeUp = Date.now
     
@@ -16,7 +16,7 @@ struct ContentView: View {
         Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 4...12, step: 0.25)
             DatePicker("Please enter a time", selection: $wakeUp, /*displayedComponents: .hourAndMinute*/ in: Date.now...)
             
-            Text(Date.now.formatted(date: .long, time: .shortened))
+            Text(Date.now.formatted(date: .long, time: .omitted ))
 //            Text(Date.now, format: .dateTime.day().month())
         }            .padding()
         
@@ -41,8 +41,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Views_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Views()
     }
 }

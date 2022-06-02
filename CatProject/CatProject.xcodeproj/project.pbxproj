@@ -7,24 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DDF1CBCE2848CFB1001DAE56 /* BetterRestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF1CBCD2848CFB1001DAE56 /* BetterRestApp.swift */; };
-		DDF1CBD02848CFB1001DAE56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF1CBCF2848CFB1001DAE56 /* ContentView.swift */; };
-		DDF1CBD22848CFB3001DAE56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF1CBD12848CFB3001DAE56 /* Assets.xcassets */; };
-		DDF1CBD52848CFB3001DAE56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF1CBD42848CFB3001DAE56 /* Preview Assets.xcassets */; };
-		DDF1CBDC2848D8AB001DAE56 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF1CBDB2848D8AB001DAE56 /* Views.swift */; };
+		DD2376832849585800D01756 /* CatProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2376822849585800D01756 /* CatProjectApp.swift */; };
+		DD2376852849585800D01756 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2376842849585800D01756 /* ContentView.swift */; };
+		DD2376872849585B00D01756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2376862849585B00D01756 /* Assets.xcassets */; };
+		DD23768A2849585B00D01756 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2376892849585B00D01756 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DDF1CBCA2848CFB1001DAE56 /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDF1CBCD2848CFB1001DAE56 /* BetterRestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestApp.swift; sourceTree = "<group>"; };
-		DDF1CBCF2848CFB1001DAE56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DDF1CBD12848CFB3001DAE56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DDF1CBD42848CFB3001DAE56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DDF1CBDB2848D8AB001DAE56 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		DD23767F2849585800D01756 /* CatProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2376822849585800D01756 /* CatProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatProjectApp.swift; sourceTree = "<group>"; };
+		DD2376842849585800D01756 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD2376862849585B00D01756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD2376892849585B00D01756 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DDF1CBC72848CFB1001DAE56 /* Frameworks */ = {
+		DD23767C2849585800D01756 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,38 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DDF1CBC12848CFB0001DAE56 = {
+		DD2376762849585800D01756 = {
 			isa = PBXGroup;
 			children = (
-				DDF1CBCC2848CFB1001DAE56 /* BetterRest */,
-				DDF1CBCB2848CFB1001DAE56 /* Products */,
+				DD2376812849585800D01756 /* CatProject */,
+				DD2376802849585800D01756 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DDF1CBCB2848CFB1001DAE56 /* Products */ = {
+		DD2376802849585800D01756 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DDF1CBCA2848CFB1001DAE56 /* BetterRest.app */,
+				DD23767F2849585800D01756 /* CatProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DDF1CBCC2848CFB1001DAE56 /* BetterRest */ = {
+		DD2376812849585800D01756 /* CatProject */ = {
 			isa = PBXGroup;
 			children = (
-				DDF1CBCD2848CFB1001DAE56 /* BetterRestApp.swift */,
-				DDF1CBCF2848CFB1001DAE56 /* ContentView.swift */,
-				DDF1CBD12848CFB3001DAE56 /* Assets.xcassets */,
-				DDF1CBD32848CFB3001DAE56 /* Preview Content */,
-				DDF1CBDB2848D8AB001DAE56 /* Views.swift */,
+				DD2376822849585800D01756 /* CatProjectApp.swift */,
+				DD2376842849585800D01756 /* ContentView.swift */,
+				DD2376862849585B00D01756 /* Assets.xcassets */,
+				DD2376882849585B00D01756 /* Preview Content */,
 			);
-			path = BetterRest;
+			path = CatProject;
 			sourceTree = "<group>";
 		};
-		DDF1CBD32848CFB3001DAE56 /* Preview Content */ = {
+		DD2376882849585B00D01756 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				DDF1CBD42848CFB3001DAE56 /* Preview Assets.xcassets */,
+				DD2376892849585B00D01756 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -73,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DDF1CBC92848CFB1001DAE56 /* BetterRest */ = {
+		DD23767E2849585800D01756 /* CatProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDF1CBD82848CFB3001DAE56 /* Build configuration list for PBXNativeTarget "BetterRest" */;
+			buildConfigurationList = DD23768D2849585B00D01756 /* Build configuration list for PBXNativeTarget "CatProject" */;
 			buildPhases = (
-				DDF1CBC62848CFB1001DAE56 /* Sources */,
-				DDF1CBC72848CFB1001DAE56 /* Frameworks */,
-				DDF1CBC82848CFB1001DAE56 /* Resources */,
+				DD23767B2849585800D01756 /* Sources */,
+				DD23767C2849585800D01756 /* Frameworks */,
+				DD23767D2849585800D01756 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BetterRest;
-			productName = BetterRest;
-			productReference = DDF1CBCA2848CFB1001DAE56 /* BetterRest.app */;
+			name = CatProject;
+			productName = CatProject;
+			productReference = DD23767F2849585800D01756 /* CatProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DDF1CBC22848CFB0001DAE56 /* Project object */ = {
+		DD2376772849585800D01756 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					DDF1CBC92848CFB1001DAE56 = {
+					DD23767E2849585800D01756 = {
 						CreatedOnToolsVersion = 13.4;
 					};
 				};
 			};
-			buildConfigurationList = DDF1CBC52848CFB0001DAE56 /* Build configuration list for PBXProject "BetterRest" */;
+			buildConfigurationList = DD23767A2849585800D01756 /* Build configuration list for PBXProject "CatProject" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,43 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = DDF1CBC12848CFB0001DAE56;
-			productRefGroup = DDF1CBCB2848CFB1001DAE56 /* Products */;
+			mainGroup = DD2376762849585800D01756;
+			productRefGroup = DD2376802849585800D01756 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DDF1CBC92848CFB1001DAE56 /* BetterRest */,
+				DD23767E2849585800D01756 /* CatProject */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DDF1CBC82848CFB1001DAE56 /* Resources */ = {
+		DD23767D2849585800D01756 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDF1CBD52848CFB3001DAE56 /* Preview Assets.xcassets in Resources */,
-				DDF1CBD22848CFB3001DAE56 /* Assets.xcassets in Resources */,
+				DD23768A2849585B00D01756 /* Preview Assets.xcassets in Resources */,
+				DD2376872849585B00D01756 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DDF1CBC62848CFB1001DAE56 /* Sources */ = {
+		DD23767B2849585800D01756 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDF1CBD02848CFB1001DAE56 /* ContentView.swift in Sources */,
-				DDF1CBCE2848CFB1001DAE56 /* BetterRestApp.swift in Sources */,
-				DDF1CBDC2848D8AB001DAE56 /* Views.swift in Sources */,
+				DD2376852849585800D01756 /* ContentView.swift in Sources */,
+				DD2376832849585800D01756 /* CatProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DDF1CBD62848CFB3001DAE56 /* Debug */ = {
+		DD23768B2849585B00D01756 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		DDF1CBD72848CFB3001DAE56 /* Release */ = {
+		DD23768C2849585B00D01756 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,14 +259,14 @@
 			};
 			name = Release;
 		};
-		DDF1CBD92848CFB3001DAE56 /* Debug */ = {
+		DD23768E2849585B00D01756 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BetterRest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CatProject/Preview Content\"";
 				DEVELOPMENT_TEAM = 23U86K98CU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -284,7 +280,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zelihauslu.BetterRest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zelihauslu.CatProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -292,14 +288,14 @@
 			};
 			name = Debug;
 		};
-		DDF1CBDA2848CFB3001DAE56 /* Release */ = {
+		DD23768F2849585B00D01756 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BetterRest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CatProject/Preview Content\"";
 				DEVELOPMENT_TEAM = 23U86K98CU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -313,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zelihauslu.BetterRest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zelihauslu.CatProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -324,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DDF1CBC52848CFB0001DAE56 /* Build configuration list for PBXProject "BetterRest" */ = {
+		DD23767A2849585800D01756 /* Build configuration list for PBXProject "CatProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDF1CBD62848CFB3001DAE56 /* Debug */,
-				DDF1CBD72848CFB3001DAE56 /* Release */,
+				DD23768B2849585B00D01756 /* Debug */,
+				DD23768C2849585B00D01756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDF1CBD82848CFB3001DAE56 /* Build configuration list for PBXNativeTarget "BetterRest" */ = {
+		DD23768D2849585B00D01756 /* Build configuration list for PBXNativeTarget "CatProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDF1CBD92848CFB3001DAE56 /* Debug */,
-				DDF1CBDA2848CFB3001DAE56 /* Release */,
+				DD23768E2849585B00D01756 /* Debug */,
+				DD23768F2849585B00D01756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DDF1CBC22848CFB0001DAE56 /* Project object */;
+	rootObject = DD2376772849585800D01756 /* Project object */;
 }
