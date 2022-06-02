@@ -1,2 +1,2 @@
 # SwiftUI
-This repo contains my swiftui exercises
+Just practice apps from the Hacking with SwiftUI challenge
