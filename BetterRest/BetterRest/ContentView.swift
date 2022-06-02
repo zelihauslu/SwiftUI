@@ -28,7 +28,7 @@ struct ContentView: View {
         
         let components = Calendar.current.dateComponents([.hour, .minute], from: Date.now)
         let hour = components.hour ?? 0
-        let minute = components.minute ?? 0
+        let minute = components.minute ?? 0 
         
 //        var components = DateComponents()
 //        components.hour = 8

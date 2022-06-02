@@ -23,7 +23,7 @@ struct Views: View {
 
         
     }
-    
+     
     func trivialExample(){
         
         let components = Calendar.current.dateComponents([.hour, .minute], from: Date.now)
