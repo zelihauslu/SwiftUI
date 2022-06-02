@@ -47,6 +47,8 @@ struct ContentView : View{
                     Picker("Tip Percentage: ", selection: $tipPercentage){
                         ForEach(tipPercentages, id:\.self){
                             Text($0, format: .percent)
+                            
+                                
                         }
                     }.pickerStyle(.segmented)
                 } header: {
@@ -54,9 +56,10 @@ struct ContentView : View{
                 }
                 Section{
                     Text(totalPerPerson, format: .currency(code: Locale.current.currencyCode ?? "USD"))
+                        .foregroundColor(tipPercentage == 0 ? .red : .black)
                         .keyboardType(.decimalPad)
                         .focused($amountIsFocused)
-
+                    
                 }
             }.navigationTitle("WeSplit")
                 .toolbar{
@@ -69,6 +72,10 @@ struct ContentView : View{
                 }
         }
     }
+    
+//    func zero() -> Bool{
+//        ti
+//    }
 }
 
 
