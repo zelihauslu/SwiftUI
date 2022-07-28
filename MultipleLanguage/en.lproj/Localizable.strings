@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  MultipleLanguage
+
+  Created by Zeliha Uslu on 28.07.2022.
+  
+*/
+
+"hello" = "Hello";
+"welcome" = "Welcome";
+"clickMe" = "Click me";
